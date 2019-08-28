@@ -58,8 +58,16 @@
 			isa = PBXGroup;
 			children = (
 				142AA43623169E6E0012F376 /* main.c */,
+				142AA43D23169EB80012F376 /* Sort */,
 			);
 			path = Algorithm_C;
+			sourceTree = "<group>";
+		};
+		142AA43D23169EB80012F376 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

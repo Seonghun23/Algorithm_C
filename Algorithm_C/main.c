@@ -6,10 +6,20 @@
 //  Copyright © 2019 Seonghun Kim. All rights reserved.
 //
 
-#include <stdio.h>
+//#include <stdio.h>
+#include "Quick_Sort.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+
+    int data[10] = { 2, 9, 4, 18, 5, 1, 7, 8, 15, 12 };
+    
+    QuickSort(data, 0, 9);
+
+    for (int i = 0; i < 10; i++) {
+        printf("%d ", data[i]);
+    }
+    printf("\n");
+
+    
     return 0;
 }

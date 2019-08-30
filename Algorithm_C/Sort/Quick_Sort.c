@@ -8,7 +8,7 @@
 
 #include "Quick_Sort.h"
 
-//void quickSort(int arr[], int left, int right) {
+//void quick_sort(int arr[], int left, int right) {
 //    int L = left, R = right;
 //    int pivot = arr[(left + right) / 2];
 //
@@ -65,12 +65,12 @@ int partition(int list[], int left, int right){
     return high;
 }
 
-void quickSort(int list[], int left, int right){
+void quick_sort(int list[], int left, int right){
     if(left<right){
         
         int q = partition(list, left, right);
         
-        quickSort(list, left, q-1);
-        quickSort(list, q+1, right);
+        quick_sort(list, left, q-1);
+        quick_sort(list, q+1, right);
     }
 }

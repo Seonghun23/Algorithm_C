@@ -11,6 +11,6 @@
 
 #include <stdio.h>
 
-void insertionSort(int list[], int n);
+void insertion_sort(int list[], int n);
 
 #endif /* Insertion_Sort_h */

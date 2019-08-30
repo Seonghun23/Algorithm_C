@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 
-void bubbleSort(int list[], int n);
+void bubble_sort(int list[], int n);
 void swap(int *a, int *b);
 
 #endif /* Bubble_Sort_h */

@@ -8,7 +8,7 @@
 
 #include "Bubble_Sort.h"
 
-void bubbleSort(int list[], int n) {
+void bubble_sort(int list[], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = i + 1; j < n; j++) {
             if (list[i] > list[j]) {

@@ -8,12 +8,13 @@
 
 //#include <stdio.h>
 #include "Quick_Sort.h"
+#define MAX_SIZE 10
 
 int main(int argc, const char * argv[]) {
 
-    int data[10] = { 2, 9, 4, 18, 5, 1, 7, 8, 15, 12 };
+    int data[MAX_SIZE] = { 2, 9, 4, 18, 5, 1, 7, 8, 15, 12, 6};
     
-    QuickSort(data, 0, 9);
+    quickSort(data, 0, 10);
 
     for (int i = 0; i < 10; i++) {
         printf("%d ", data[i]);

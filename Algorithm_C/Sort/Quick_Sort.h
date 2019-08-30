@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 
-void QuickSort(int arr[], int left, int right);
+void quickSort(int arr[], int left, int right);
 void swap(int *a, int *b);
 
 #endif /* Quick_Sort_h */
